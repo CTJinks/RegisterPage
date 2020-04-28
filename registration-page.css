@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 2px 2px 2px gray;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.toplinks{
+    margin-top: 28px;
+    float: right;
+    margin-right: 25px;
+}
+form{
+    background-color: white;
+    margin-top: 20vw;
+    margin-left: 38vw;
+    margin-right: 38vw;
+    padding: 30px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 5px;
+}
+input{
+    width: 228px;
+}
+.signup{
+    margin-top: 20px;
+}
+.submit{
+    padding: 8px 50px 8px 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#submit-button {
+    text-align: center;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    margin: 20px 6px 10px 6px;
+    border-radius: 100%;
+}
